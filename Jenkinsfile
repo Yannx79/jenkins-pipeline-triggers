@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
-                bat 'python3 view_machine_data.py'
+                bat 'python view_machine_data.py'
             }
         }
     }
