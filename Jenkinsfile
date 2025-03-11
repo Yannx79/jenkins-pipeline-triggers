@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
-                bat 'C:\Users\Yannick\AppData\Local\Programs\Python\Python313\python.exe view_machine_data.py'
+                bat 'C:\\Users\\Yannick\\AppData\\Local\\Programs\\Python\\Python313\\python.exe view_machine_data.py'
             }
         }
     }
